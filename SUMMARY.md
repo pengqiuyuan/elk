@@ -11,4 +11,5 @@
    * [logstash template 模版](chapter_2_6.md)
    * [运行elasticsearch](chapter_2_7.md)
    * [运行logstash](chapter_2_8.md)
+* 服务器架构
 
