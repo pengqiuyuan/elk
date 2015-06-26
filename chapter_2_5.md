@@ -45,8 +45,16 @@ vi log_*.json  复制参考配置，保存退出
   ES_MIN_MEM=256m  改为  物理内存的50%  ES_MIN_MEM=2g (机器32g内存这里分配16g)
   ES_MAX_MEM=1g    改为  物理内存的50%  ES_MIN_MEM=2g(机器32g内存这里分配16g)
   ```
+   ```
+ES_CLASSPATH=$ES_CLASSPATH:$ES_HOME/lib/elasticsearch-1.6.0.jar:$ES_HOME/lib/*:$ES_HOME/lib/sigar/*
 
-
+if [ "x$ES_MIN_MEM" = "x" ]; then
+    ES_MIN_MEM=512m
+fi
+if [ "x$ES_MAX_MEM" = "x" ]; then
+    ES_MAX_MEM=512m
+fi
+ ```
 
 
 ####  10.0.29.249 node data
