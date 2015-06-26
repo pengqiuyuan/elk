@@ -57,3 +57,10 @@ server {
 
 }
 ```
+>- sbin/nginx –t 测试
+>- sbin/nginx –s reload
+
+
+
+
+
