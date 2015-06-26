@@ -3,6 +3,38 @@ elasticsearch 配置文件
 
 ####  10.0.29.107 master data
 - 修改elasticsearch.yml文件elasticsearch-1.6.0/config目录下
+
+     ``` 
+    cluster.name: guangxian_game
+    node.name: node_107
+    node.master: true
+    node.data: true
+    index.number_of_shards: 3
+    index.number_of_replicas: 1
+    index.cache.field.type: soft
+    index.cache.field.max_size: 50000
+    index.cache.field.expire: 10m
+
+    transport.tcp.compress: true
+    http.cors.allow-origin: "/.*/"
+    http.cors.enabled: true
+    
+    bootstrap.mlockall: true
+    indices.cache.filter.size: 20%
+    indices.fielddata.cache.size: 30%
+    indices.fielddata.cache.expire: -1
+    indices.memory.index_buffer_size: 50%
+    index.refresh_interval: 30s
+    index.translog.flush_threshold_ops: 50000
+    index.store.compress.stored: true
+    
+    discovery.zen.ping.multicast.enabled: false
+    discovery.zen.ping.unicast.hosts: ["10.0.29.152","10.0.29.107"]
+ ``` 
+ > node.name 节点名字，如当前机器是1o.0.29.107 ,名字为 node_107
+ > discovery.zen.ping.unicast.hosts: 为master data的IP地址，如果只有一台为当前机器的ip
+
+
 - 添加templates模版
 ``` 
 elasticsearch-1.6.0/config目录下，创建文件夹templates,
