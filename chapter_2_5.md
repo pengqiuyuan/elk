@@ -4,7 +4,15 @@ elasticsearch 配置文件
 ####  10.0.29.107 master data
 - 修改elasticsearch.yml文件elasticsearch-1.6.0/config目录下
 - 添加templates模版
-
+``` 
+elasticsearch-1.6.0/config目录下，创建文件夹templates,
+mkdir templates
+cd templates
+templates文件夹下创建log_*.json文件
+vi log_*.json  复制参考配置，保存退出
+参考地址：
+https://github.com/pengqiuyuan/escloud/blob/master/ es-template/log_*.json
+``` 
 - 修改 elasticsearch-1.6.0/bin 目录下的 elasticsearch.in.sh
 
 ```  
