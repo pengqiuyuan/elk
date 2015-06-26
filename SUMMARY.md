@@ -8,4 +8,5 @@
    * [服务器调整](chapter_2_3.md)
    * [安装插件](chapter_2_4.md)
    * [elasticsearch 配置文件](chapter_2_5.md)
+   * logstash template 模版
 
