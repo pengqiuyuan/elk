@@ -10,4 +10,5 @@
    * [elasticsearch 配置文件](chapter_2_5.md)
    * [logstash template 模版](chapter_2_6.md)
    * [运行elasticsearch](chapter_2_7.md)
+   * 运行logstash
 
