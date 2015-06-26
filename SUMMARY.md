@@ -6,4 +6,5 @@
    * [硬件](chapter_2_1.md)
    * [软件](chapter_2_2.md)
    * [服务器调整](chapter_2_3.md)
+   * 安装插件
 
