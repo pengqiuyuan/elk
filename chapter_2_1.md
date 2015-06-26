@@ -7,7 +7,7 @@
 	硬盘：1T 以上 	
 
 
-[硬件配置参考文档](https://www.elastic.co/guide/en/elasticsearch/guide/current     /hardware.html)
+[硬件配置参考文档](https://www.elastic.co/guide/en/elasticsearch/guide/current/hardware.html)
     
     
     
