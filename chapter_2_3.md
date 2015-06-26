@@ -60,7 +60,7 @@ server {
 >- sbin/nginx –t 测试
 >- sbin/nginx –s reload
 
-
+![image](https://cloud.githubusercontent.com/assets/4953205/8372077/2230b754-1c12-11e5-802a-740e08784707.png)
 
 
 
