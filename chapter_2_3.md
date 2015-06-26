@@ -14,3 +14,5 @@
 > vi /etc/sysconfig/iptables
 > - 添加： -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
 > - 重启服务： service iptables restart
+
+
