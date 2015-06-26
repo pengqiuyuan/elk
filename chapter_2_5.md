@@ -90,6 +90,10 @@ vi log_*.json  复制参考配置，保存退出
 
 
 ####  10.0.29.249 node data
-
-
+- 修改elasticsearch.yml文件elasticsearch-1.6.0/config目录下
+- 添加templates模版
+- 修改 elasticsearch-1.6.0/bin 目录下的 elasticsearch.in.sh
 ####  10.0.29.250  node data
+- 修改elasticsearch.yml文件elasticsearch-1.6.0/config目录下
+- 添加templates模版
+- 修改 elasticsearch-1.6.0/bin 目录下的 elasticsearch.in.sh
