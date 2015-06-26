@@ -565,3 +565,11 @@ output {
 	}
 }
 ```
+
+
+
+```
+redis host : 安装redis，收集日志的服务器ip
+cluster ： elasticsearch 集群名称，与elasticsearch.yml中配置的匹配，不用动
+host ：elasticsearch master data 实例，所在服务器的ip
+```
